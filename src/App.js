@@ -51,19 +51,22 @@ function App() {
 
   return (
     <>
-      <Router>
+        <BrowserRouter basename="/broApp">
+    
         <Navbar title="BROAPP" mode={mode} toggleMode={toggleMode} colorMode={colorMode} />
         <Alert alert={alert} />
         <div className="container my-3">
           <Routes>
             <Route exact  path="/about" element={<Aboutus mode={mode} />}>
             </Route>
+           
             <Route path="/" element={<TextForm heading="Enter text here" mode={mode} showAlert={showAlert} />}>
             </Route>
           </Routes>
           {/* <Aboutus mode={mode}/> */}
         </div>
-      </Router>
+      
+            </BrowserRouter>
     </>
   );
 }
