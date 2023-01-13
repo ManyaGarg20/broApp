@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/broApp/static/css/main.e6c13ad2.css",
+    "main.js": "/broApp/static/js/main.08af4303.js",
+    "static/js/787.5d80643b.chunk.js": "/broApp/static/js/787.5d80643b.chunk.js",
+    "index.html": "/broApp/index.html",
+    "main.e6c13ad2.css.map": "/broApp/static/css/main.e6c13ad2.css.map",
+    "main.08af4303.js.map": "/broApp/static/js/main.08af4303.js.map",
+    "787.5d80643b.chunk.js.map": "/broApp/static/js/787.5d80643b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.08af4303.js"
+  ]
+}
